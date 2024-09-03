@@ -1,5 +1,5 @@
 const calculateFactorial = (numero) => {
-    return (numero != 1) ? numero * calculateFactorial(numero - 1) : 1;
+    return (numero != 0) ? numero * calculateFactorial(numero - 1) : 1;
 }
 
 const requestNumber = () => {
